@@ -52,7 +52,7 @@ class JsonApi
         ];
 
         if ($this->metaObject !== null) {
-            $jsonApi['meta'] = $this->dataObject->getData();
+            $jsonApi['meta'] = $this->metaObject->getData();
         }
 
         if ($this->errorObject !== null) {
