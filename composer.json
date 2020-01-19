@@ -1,0 +1,13 @@
+{
+    "name": "zhenia97/json-api",
+    "description": "Json api library",
+    "type": "library",
+    "require": {
+        "php": "^7.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "JsonApi": "src/"
+        }
+    }
+}
