@@ -2,12 +2,13 @@
     "name": "zhenia97/json-api",
     "description": "Json api library",
     "type": "library",
+    "license": "proprietary",
     "require": {
         "php": "^7.2"
     },
     "autoload": {
         "psr-4": {
-            "JsonApi": "src/"
+            "JsonApi\\": "src/"
         }
     }
 }
